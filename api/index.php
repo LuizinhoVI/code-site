@@ -9,7 +9,7 @@
 <body>
     teste
 
-    <a href="teste.html">ir para pasta de teste</a>
+    <a href="teste.php">ir para pasta de teste</a>
     <?php echo("olar mundo ")   ?>
 </body>
 </html>
