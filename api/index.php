@@ -23,7 +23,7 @@
                 <a href="#about" class="w3-bar-item w3-button">SOBRE</a>
                 <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> EQUIPE</a>
                 <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTIFÓLIO</a>
-                <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> ORÇAMENTO</a>
+                <a href="../public/teste.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> ORÇAMENTO</a>
                 <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTATO</a>
             </div>
             <!-- Hide right-floated links on small screens and replace them with a menu icon -->
