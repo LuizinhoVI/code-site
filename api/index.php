@@ -71,6 +71,7 @@
         <div class="w3-row-padding w3-center" style="margin-top:64px">
             <div class="w3-quarter">
                 <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+
                 <p class="w3-large">Web</p>
                 <p>Seu site sera visto e reconhecido pelos mecanismos de busca do Google seja no seu celular ou computador.</p>
             </div>
