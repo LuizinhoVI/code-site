@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
-<title>Code Programado</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="img/centro.png" type="image/png">
-<link rel="stylesheet" href="../styles/estilo.css">
-<link rel="stylesheet" href="../styles/reset.css">
-<link rel="stylesheet" href="../styles/responsivo.css">
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+    <title>Code Programado</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/centro.png" type="image/png">
+    <link rel="stylesheet" href="../styles/estilo.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/responsivo.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
+
+
+</head>
 
 <body>
 
@@ -116,7 +121,7 @@
         <div class="w3-row-padding " style="margin-top:64px" align="center" id="equipe">
             <div class="w3-col l3 m6 w3-margin-bottom" id="luiz">
                 <div class="w3-card">
-                    <img src="img/perfil.jpg" alt="luiz" style="width:100%">
+                    <img src="https://ibb.co/3vzK1zJ" alt="luiz" style="width:100%">
                     <div class="w3-container">
                         <h3>Luiz Vieira</h3>
                         <p class="w3-opacity">Analista de Sistema</p>
