@@ -1,8 +1,0 @@
-@media only screen and (max-width: 600px) {
-    #efeito_letra {
-        font-size: 25px !important;
-        height: 40px;
-        position: absolute;
-        width: 21ch;
-    }
-}
