@@ -1,3 +1,9 @@
 #clientes>div>a>img {
     border-radius: 10px;
 }
+
+#tema::after {
+    position: absolute;
+    background-image: url(../img/left.png);
+    border: solid red 1px;
+}
