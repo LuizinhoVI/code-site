@@ -32,3 +32,7 @@
     #show_valor:hover {
         transform: scale(1.1);
     }
+    
+    del {
+        color: red;
+    }
