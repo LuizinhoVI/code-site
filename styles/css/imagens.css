@@ -2,8 +2,12 @@
     border-radius: 10px;
 }
 
+#tema::before {
+    content: url(../img/left.png);
+}
+
 #tema::after {
-    position: absolute;
-    background-image: url(../img/left.png);
+    content: url(../img/right.png);
+    background-size: 20px;
     border: solid red 1px;
 }
