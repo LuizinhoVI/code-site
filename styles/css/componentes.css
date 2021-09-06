@@ -42,8 +42,5 @@
     }
     
     #button {
-        background-image: url(../img/whats.png);
-        background-size: 20px;
-        background-repeat: no-repeat;
-        background-position: 200px, 10px;
+        border-radius: 10px;
     }
