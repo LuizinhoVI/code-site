@@ -3,11 +3,42 @@
 }
 
 #tema::before {
-    content: url(../img/left.png);
+    content: url(../img/esquerda.png);
 }
 
 #tema::after {
-    content: url(../img/right.png);
-    background-size: 20px;
-    border: solid red 1px;
+    content: url(../img/direita.png);
+}
+
+
+/* imagens do tem sobre */
+
+#mostrar_google {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 3px 0px;
+    opacity: 80%;
+    border-radius: 10px;
+}
+
+.google {
+    width: 400px;
+    height: 100%;
+}
+
+#separador {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#separador>div {
+    display: grid;
+    justify-content: center;
+}
+
+.conectado {
+    position: relative;
+    width: 400px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px;
 }
