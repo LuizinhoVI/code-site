@@ -30,6 +30,10 @@ html {
     height: 100%;
 }
 
+#tema {
+    font-size: 40px;
+}
+
 .w3-bar .w3-button {
     padding: 16px;
 }
