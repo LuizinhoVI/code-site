@@ -1,46 +1,57 @@
-    #efeito_letra {
-        border: none;
-        padding: 0;
-        box-shadow: .3em 0 0 #ffffff;
-        position: absolute;
-        left: 50px;
-        width: 22ch;
-        height: 90px;
-        overflow: hidden;
-        white-space: nowrap;
-        animation: caret 1s infinite step-end, type 5s steps(23, end) infinite 5s;
+#efeito_letra {
+    border: none;
+    padding: 0;
+    box-shadow: .3em 0 0 #ffffff;
+    position: absolute;
+    left: 50px;
+    width: 22ch;
+    height: 90px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: caret 1s infinite step-end, type 5s steps(23, end) infinite 5s;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
     }
-    
-    @keyframes type {
-        0% {
-            width: 0;
-        }
+}
+
+@keyframes caret {
+    50% {
+        box-shadow: .3em 0 0 0 transparent;
     }
-    
-    @keyframes caret {
-        50% {
-            box-shadow: .3em 0 0 0 transparent;
-        }
-    }
-    
-    #show_valor {
-        transform: scale(0.9);
-        transition: transform .2s;
-        margin: 0;
-    }
-    
-    #show_valor:hover {
-        transform: scale(1.1);
-    }
-    
-    del {
-        color: red;
-    }
-    
-    .desconto {
-        font-size: 15px;
-    }
-    
-    #button {
-        border-radius: 10px;
-    }
+}
+
+#show_valor {
+    transform: scale(0.9);
+    transition: transform .2s;
+    margin: 0;
+}
+
+#show_valor:hover {
+    transform: scale(1.1);
+}
+
+del {
+    color: red;
+}
+
+.desconto {
+    font-size: 15px;
+}
+
+#button {
+    border-radius: 10px;
+}
+
+#work>div>div {
+    text-align: center;
+    padding: 20px;
+}
+
+#work>div>div:hover {
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 0px rgb(11, 26, 236);
+    transform: scale(1.1);
+}
