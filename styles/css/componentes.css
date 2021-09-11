@@ -5,7 +5,7 @@
     position: absolute;
     left: 50px;
     width: 22ch;
-    height: 90px;
+    height: 100px;
     overflow: hidden;
     white-space: nowrap;
     animation: caret 1s infinite step-end, type 5s steps(23, end) infinite 5s;
