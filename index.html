@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>Code Programado </title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="https://i.ibb.co/cgvqvXq/centro.png" type="image/png">
-
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="styles/css/_import.css">
-
-
-
-</head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", sans-serif
+    }
+    
+    body,
+    html {
+        height: 100%;
+        line-height: 1.8;
+    }
+    /* Full height image header */
+    
+    .bgimg-1 {
+        background-position: center;
+        background-size: cover;
+        background-image: url("styles/img/fundo.jpg");
+        min-height: 100%;
+    }
+    
+    .w3-bar .w3-button {
+        padding: 16px;
+    }
+</style>
 
 <body>
 
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
         <div class="w3-bar w3-white w3-card" id="myNavbar">
-            <a href="#home" class="w3-bar-item w3-button w3-wide">Code Programado</a>
-
+            <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
             <!-- Right-sided navbar links -->
             <div class="w3-right w3-hide-small">
-                <a href="#about" class="w3-bar-item w3-button">SOBRE</a>
-                <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> EQUIPE</a>
-                <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PORTIFÓLIO</a>
-                <a href="#planos" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> ORÇAMENTO</a>
-                <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTATO</a>
+                <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+                <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+                <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+                <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+                <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
             </div>
             <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -42,333 +60,61 @@
 
     <!-- Sidebar on small screens when clicking the menu icon -->
     <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">voltar ×</a>
-        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">SOBRE</a>
-        <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">EQUIPE</a>
-        <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">PORTIFÓLIO</a>
-        <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">ORÇAMENTO</a>
-        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTATO</a>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+        <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+        <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
     </nav>
 
     <!-- Header with full-height image -->
-
     <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
         <div class="w3-display-left w3-text-white" style="padding:48px">
-            <span class="w3-jumbo w3-hide-small"> <span class="w3-jumbo w3-hide-small" id="efeito_letra">Comece o seu site agora </span></span><br>
-            <span class="w3-xxlarge w3-hide-large w3-hide-medium"> <span class="w3-xxlarge w3-hide-large w3-hide-medium" id="efeito_letra">Comece o seu site agora</span></span><br>
-            <span class="w3-large"> </span>
-            <p><a href="#contact" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">COMEÇAR AGORA</a></p>
-
+            <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
+            <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+            <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
+            <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
         </div>
         <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-            <a href="https://www.facebook.com/profile.php?id=100059231170072"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-            <a href="https://www.instagram.com/l_u_i_zzz_/" target="_blank"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
-            <a href="https://twitter.com/LuizSusano" target="_blank"> <i class="fa fa-twitter w3-hover-opacity"></i></a>
-            <a href="https://www.linkedin.com/in/luiz-vieira-b68b17161/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
         </div>
     </header>
 
-
     <!-- About Section -->
-    <div class="w3-container" style="padding:100px 16px" id="about">
-        <h1 class="w3-center" id="tema">CODE PROGRAMADO</h1>
-        <br>
-
-        <h1 align="center">Simplicidade</h1>
-        <p class="w3-center">Um site feito para você, que busca ser reconhecido nos buscadores da internet e ter uma boa venda sem muita dor de cabeça, temos os melhores planos para quem estar chegando agora e deseja ter um site com a sua marca na internet e ser reconhecido
-            pelo Brasil inteiro exemplo : <label for="" style="color:blue;"> www.suamarcaaqui.com.br</label>
-        </p>
-        <br>
-        <div class="w3-container" align="center" id="mostrar_google">
-            <!-- <img src="styles/img/Google-1.gif" alt="" class="google"> -->
-
-        </div>
-
-        <hr>
-        <div id="separador">
-            <div>
-                <h1 align="center">Usabilidade</h1>
-                <br>
-                <p align="justify"> Mostraremos varios modelo de como vai ficar o seu site, depois que aprovar o site vamos entrar em modo de produção para construir o site do seu gosto, a duração em média de um site para ficar pronto é entre 1 a 3 mês, porem vai depender
-                    quantos itens vai colocar no seu site, não se preocupa com a demora do site, vamos deixar uma previa do seu site disponível para você acompanhar em tempo real. Após terminar a produção vamos configurar a hospedagem e o domínio para
-                    você não ter dor de cabeça e problemas de configurações. </p>
-            </div>
-            <div class="w3-conteiner">
-                <!-- <img src="styles/img/conectado.gif" class="conectado" alt="dor de cabeça"> -->
-            </div>
-        </div>
-        <hr>
+    <div class="w3-container" style="padding:128px 16px" id="about">
+        <h3 class="w3-center">ABOUT THE COMPANY</h3>
+        <p class="w3-center w3-large">Key features of our company</p>
         <div class="w3-row-padding w3-center" style="margin-top:64px">
             <div class="w3-quarter">
                 <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-
-                <p class="w3-large">Compatibilidade</p>
-                <p> Pelos computadores, smartphone e tablets seu site terá uma ótima adaptação.</p>
+                <p class="w3-large">Responsive</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
             </div>
             <div class="w3-quarter">
                 <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-                <p class="w3-large">Qualidade</p>
-                <p>Seu site sera visto e reconhecido pelos mecanismos de busca do Google.</p>
+                <p class="w3-large">Passion</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
             </div>
             <div class="w3-quarter">
                 <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-                <p class="w3-large">Manutenção</p>
-                <p>Totos os sites aqui são feitos por via código fonte, fazemos update todo final de semana.</p>
+                <p class="w3-large">Design</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
             </div>
             <div class="w3-quarter">
                 <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-                <p class="w3-large">Configurações</p>
-                <p>Configuramos toda a infraestrutura automaticamente </p>
-
+                <p class="w3-large">Support</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
             </div>
         </div>
     </div>
 
-    <hr>
-    <!-- tabelas de temas para o cliente escolher  -->
-    <div class="w3-container" style="padding:128px 16px" id="work">
-        <h1 class="w3-center"> MODELOS DE SITES</h1>
-        <p class="w3-center w3-large"></p>
-
-        <div class="w3-row-padding" style="margin-top:20px" id="clientes">
-            <div class="w3-col l3 m6" align="center">
-                <br>
-
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_band.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_band.jpg" style="width:100%"></a><label class="meio" align="center"><b>Band </b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_gourmet_catering.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_gourmet_catering.jpg" style="width:100%"></a>
-                <label class="meio"><b>Gourmet</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_architect.htm" target="_blank">
-                    <img src=" https://www.w3schools.com/w3css/img_temp_architect.jpg" style="width:100%"></a>
-                <label class="meio"><b>Architect</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_parallax.jpg" style="width:100%"></a>
-                <label class="meio"><b>Parallax</b></label>
-            </div>
-
-        </div>
-        <div class="w3-row-padding" style="margin-top:20px" id="clientes">
-            <div class="w3-col l3 m6">
-                <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_blog.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_blog.jpg" style="width:100%"></a>
-                <label class="meio"><b>Blog</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_food_blog.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_food_blog.jpg" style="width:100%"></a>
-                <label class="meio"><b>Food Blog </b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_fashion_blog.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_fashion_blog.jpg" style="width:100%"></a>
-                <label class="meio"><b>Fashion Blog</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_fashion_blog.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_fashion_blog.jpg" style="width:100%"></a>
-                <label class="meio"><b>Cafe </b></label>
-            </div>
-        </div>
-        <div class="w3-row-padding" style="margin-top:20px" id="clientes">
-            <div class="w3-col l3 m6">
-                <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_cafe.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_cafe.jpg" style="width:100%"></a>
-                <label class="meio"><b>Fashion Blog</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_clothing_store.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_clothing_store.jpg" style="width:100%"></a>
-                <label class="meio"><b>Clothing Store</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_cv.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_cv.jpg" style="width:100%"></a>
-                <label class="meio"><b>CV</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_coming_soon.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_comingsoon.jpg" style="width:100%"></a>
-                <label class="meio"><b>Coming Soon</b></label>
-            </div>
-        </div>
-        <div class="w3-row-padding" style="margin-top:20px" id="clientes">
-            <div class="w3-col l3 m6">
-                <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_wedding.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_wedding.jpg" style="width:100%"></a>
-                <label class="meio"><b>Wedding Invitation</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_photo.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_photo.JPG" style="width:100%"></a>
-                <label class="meio"><b>Photo</b></label>
-            </div>
-
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_photo2.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_photo2.jpg" style="width:100%"></a>
-                <label class="meio"><b>Black & White Photo</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_photo3.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_photo3.jpg" style="width:100%"></a>
-                <label class="meio"><b>Photo Portfolio</b></label>
-            </div>
-
-        </div>
-
-        <div class="w3-row-padding" style="margin-top:20px" id="clientes">
-            <div class="w3-col l3 m6">
-                <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_website.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_website.jpg" style="width:100%"></a>
-                <label class="meio"><b>Marketing / Website</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_portfolio2.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_portfolio2.jpg" style="width:100%"></a>
-                <label class="meio"><b>People Portfolio</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_portfolio3.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_portfolio3.jpg" style="width:100%"></a>
-                <label class="meio"><b>People Portfolio II</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_dark_icon.jpg" style="width:100%"></a>
-                <label class="meio"><b>Dark Portfolio</b></label>
-            </div>
-        </div>
-        <div class="w3-row-padding" style="margin-top:20px" id="clientes">
-            <div class="w3-col l3 m6">
-                <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_bw_portfolio.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_bw_port.jpg" style="width:100%"></a>
-                <label class="meio"><b>Black & White Portfolio</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_interior_design.jpg" style="width:100%"></a>
-                <label class="meio"><b>Interior Design</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htmhttps://www.w3schools.com/w3css/tryw3css_templates_restaurant_modal.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_modal_restaurant.jpg" style="width:100%"></a>
-                <label class="meio"><b>Modal Restaurant</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_pizza.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_pizza.jpg" style="width:100%"></a>
-                <label class="meio"><b>Pizza Restaurant</b></label>
-            </div>
-        </div>
-        <div class="w3-row-padding" style="margin-top:20px" id="clientes">
-            <div class="w3-col l3 m6">
-                <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_start_page.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_startpage.jpg" style="width:100%"></a>
-                <label class="meio"><b>Start Page</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_startup.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_startup.jpg" style="width:100%"></a>
-                <label class="meio"><b>Startup</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_app_launch.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_app_launch.jpg" style="width:100%"></a>
-                <label class="meio"><b>App Launch</b></label>
-            </div>
-
-
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_marketing.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_marketing.jpg" style="width:100%"></a>
-                <label class="meio"><b>Marketing</b></label>
-            </div>
-        </div>
-        <div class="w3-row-padding" style="margin-top:20px" id="clientes">
-            <div class="w3-col l3 m6"> <br>
-                <label class="meio"><b>Art </b></label>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_streetart.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_art.jpg" style="width:100%"></a>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_webpage.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_webpage.jpg" style="width:100%"></a>
-                <label class="meio"><b>Web Page</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_social.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_social.jpg" style="width:100%"></a>
-                <label class="meio"><b>Social Media</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_analytics.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_analytics.jpg" style="width:100%"></a>
-                <label class="meio"><b>Analytics</b></label>
-            </div>
-        </div>
-        <div class="w3-row-padding" style="margin-top:20px" id="clientes">
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_apartment_rental.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_apartment_rental.jpg" style="width:100%"></a>
-                <label class="meio"><b>Apartment Rental</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_hotel.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_hotel.jpg" style="width:100%"></a>
-                <label class="meio"><b>Hotel</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_travel2.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_travel2.jpg" style="width:100%"></a>
-                <label class="meio"><b>Travel</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_design.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_design.jpg" style="width:100%"></a>
-                <label class="meio"><b>House Design</b></label>
-            </div>
-        </div>
-        <div class="w3-row-padding" style="margin-top:20px" id="clientes">
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_fifty.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_fifty.jpg" style="width:100%"></a>
-                <label class="meio"><b>Screen 50/50</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_travel.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_travel.jpg" style="width:100%"></a>
-                <label class="meio"><b>Travel Agency</b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_mail.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_mail.jpg" style="width:100%"></a>
-                <label class="meio"><b>Mail </b></label>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.w3schools.com/w3css/tryw3css_templates_black.htm" target="_blank">
-                    <img src="https://www.w3schools.com/w3css/img_temp_demosite.jpg" style="width:100%"></a>
-                <label class="meio"><b>Kitchen Sink/W3.CSS Demo </b></label>
-            </div>
-        </div>
-
-
-    </div>
-
-
-    <!-- Promo Section -"We know design" -->
+    <!-- Promo Section - "We know design" -->
     <div class="w3-container w3-light-grey" style="padding:128px 16px">
         <div class="w3-row-padding">
             <div class="w3-col m6">
@@ -377,86 +123,117 @@
                 <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
             </div>
             <div class="w3-col m6">
-                <img class="w3-image w3-round-large" src="styles/img/cat esperando.gif" alt="Buildings" width="700" height="394">
-
+                <img class="w3-image w3-round-large" src="/w3images/phone_buildings.jpg" alt="Buildings" width="700" height="394">
             </div>
         </div>
     </div>
 
     <!-- Team Section -->
-    <div class="w3-container" style="padding:60px 20px" id="team">
-
-        <h1 class="w3-center"> E Q U I P E</h1>
-        <p class="w3-center w3-large"></p>
-        <!-- minha foto com os detalhes -->
-        <div class="w3-row-padding" style="margin-top:20px" align="center" id="equipe">
-            <div class="w3-col l3 m6 w3-margin-bottom" id="luiz">
+    <div class="w3-container" style="padding:128px 16px" id="team">
+        <h3 class="w3-center">THE TEAM</h3>
+        <p class="w3-center w3-large">The ones who runs this company</p>
+        <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+            <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-card">
-
-                    <img src="styles/img/perfil.jpg" alt="luiz" style="width:100%;">
+                    <img src="/w3images/team2.jpg" alt="John" style="width:100%">
                     <div class="w3-container">
-                        <h3>Luiz Vieira</h3>
-                        <p class="w3-opacity">Analista de Sistema</p>
-                        <p class="w3-opacity">Full-Stack</p>
-                        <p>Amante da tecnologia e fascinado pelos algoritimos usados no dia a dia pela natureza que o criador nos deu.</p>
-                        <p><a href="https://api.whatsapp.com/send?phone=5579999722046&text" target="_blank" class="w3-button w3-light-grey w3-block" id="button"><i class="fa fa-envelope"></i> Contato</a></p>
+                        <h3>John Doe</h3>
+                        <p class="w3-opacity">CEO & Founder</p>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+                    <div class="w3-container">
+                        <h3>Anja Doe</h3>
+                        <p class="w3-opacity">Art Director</p>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+                    <div class="w3-container">
+                        <h3>Mike Ross</h3>
+                        <p class="w3-opacity">Web Designer</p>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card">
+                    <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
+                    <div class="w3-container">
+                        <h3>Dan Star</h3>
+                        <p class="w3-opacity">Designer</p>
+                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Promo Section"Statistics" -->
+    <!-- Promo Section "Statistics" -->
     <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
         <div class="w3-quarter">
-            <span class="w3-xxlarge">+21</span>
-            <br>MODELOS DE SITE
-        </div>
-        <select name="d" id="">e
-                
-                <option value="">ae</option>
-                
-            </select>
-        <div class="w3-quarter">
-            <span class="w3-xxlarge">+10</span>
-            <br>PROJETOS
+            <span class="w3-xxlarge">14+</span>
+            <br>Partners
         </div>
         <div class="w3-quarter">
-            <span class="w3-xxlarge">+5</span>
-            <br>
+            <span class="w3-xxlarge">55+</span>
+            <br>Projects Done
         </div>
         <div class="w3-quarter">
-            <span class="w3-xxlarge">+87</span>
-            <br>SOLUÇÕES RESOLVIDAS
+            <span class="w3-xxlarge">89+</span>
+            <br>Happy Clients
+        </div>
+        <div class="w3-quarter">
+            <span class="w3-xxlarge">150+</span>
+            <br>Meetings
         </div>
     </div>
 
     <!-- Work Section -->
     <div class="w3-container" style="padding:128px 16px" id="work">
-        <h1 class="w3-center"> C L I E N T E S </h1>
-        <p class="w3-center w3-large"></p>
+        <h3 class="w3-center">OUR WORK</h3>
+        <p class="w3-center w3-large">What we've done for people</p>
 
-        <div class="w3-row-padding" style="margin-top:64px" id="clientes">
+        <div class="w3-row-padding" style="margin-top:64px">
             <div class="w3-col l3 m6">
-                <br>
-                <a href="https://www.sweetcakegc.com.br/" target="_blank">
-                    <img src="styles/img/logos/logo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone"></a>
+                <img src="/w3images/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
             </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.sweetcakegc.com.br/" target="_blank">
-                    <img src="styles/img/logos/logo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone"></a>
+            <div class="w3-col l3 m6">
+                <img src="/w3images/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
             </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.sweetcakegc.com.br/" target="_blank">
-                    <img src="styles/img/logos/logo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone"></a>
+            <div class="w3-col l3 m6">
+                <img src="/w3images/tech_drone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
             </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.sweetcakegc.com.br/" target="_blank">
-                    <img src="styles/img/logos/logo.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone"></a>
+            <div class="w3-col l3 m6">
+                <img src="/w3images/tech_sound.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
             </div>
-
         </div>
 
+        <div class="w3-row-padding w3-section">
+            <div class="w3-col l3 m6">
+                <img src="/w3images/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="/w3images/tech_camera.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="/w3images/tech_typewriter.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+            </div>
+            <div class="w3-col l3 m6">
+                <img src="/w3images/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+            </div>
+        </div>
     </div>
 
     <!-- Modal for full size images on click-->
@@ -472,22 +249,20 @@
     <div class="w3-container w3-light-grey w3-padding-64">
         <div class="w3-row-padding">
             <div class="w3-col m6">
-                <h3><b> Estilos das paginas</b></h3>
-                <P> Aqui estão os 50% dos frameworks css que utilizamos, para ter uma boa estrutura responsiva no seu Smart phone e uma grande satisfação ao interagir com as paginas.</P>
-                <p><b> O que é uma framework ?</b> Framework é um termo inglês que, em sua tradução direta, significa estrutura. De maneira geral, essa estrutura é feita para resolver um problema específico. Na programação, um framework é um conjunto de
-                    códigos genéricos capaz de unir trechos de um projeto de desenvolvimento.</p>
-
+                <h3>Our Skills.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore.</p>
             </div>
             <div class="w3-col m6">
-                <p class="w3-wide"><i><img src="styles/img/logos/boot.png" alt="boot" width="30px"></i> BOOTSTRAP</p>
+                <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Photography</p>
                 <div class="w3-grey">
-                    <div class="w3-container w3-dark-grey w3-center" style="width:20%">20%</div>
+                    <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
                 </div>
-                <p class="w3-wide"><i><img src="styles/img/logos/pcss.png" alt="boot" width="30px"> CSS PURO</p>
+                <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Web Design</p>
                 <div class="w3-grey">
                     <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
                 </div>
-                <p class="w3-wide"><i><img src="styles/img/logos/w3.jpg" alt="boot" width="30px"> W3.CSS</p>
+                <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Photoshop</p>
                 <div class="w3-grey">
                     <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
                 </div>
@@ -496,89 +271,73 @@
     </div>
 
     <!-- Pricing Section -->
-    <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="planos">
-        <h3>PLANOS QUE CABEM NO SEU BOLÇO</h3>
-        <p class="w3-large">'Escolha o melhor plano que combina mais com você !'</p>
+    <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+        <h3>PRICING</h3>
+        <p class="w3-large">Choose a pricing plan that fits your needs.</p>
         <div class="w3-row-padding" style="margin-top:64px">
-
-
-            <div class="w3-third w3-section" id="show_valor">
+            <div class="w3-third w3-section">
                 <ul class="w3-ul w3-white w3-hover-shadow">
-                    <li class="w3-black w3-xlarge w3-padding-32">Plano inicial</li>
-                    <li class="w3-padding-16">Site simples com extensões <b>limitada</b></li>
-                    <li class="w3-padding-16">Atualização no site de <b> R$100 por 24 hóras</b></li>
-                    <li class="w3-padding-16">suporte por <b>5 Hóras a diária</b></li>
-                    <li class="w3-padding-16"> domínio por <b> R$ 40,00 anual </b></li>
-                    <li class="w3-padding-16"> pagamentos online<b> não tem </b></li>
-
+                    <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+                    <li class="w3-padding-16"><b>10GB</b> Storage</li>
+                    <li class="w3-padding-16"><b>10</b> Emails</li>
+                    <li class="w3-padding-16"><b>10</b> Domains</li>
+                    <li class="w3-padding-16"><b>Endless</b> Support</li>
                     <li class="w3-padding-16">
-                        <i><del>R$ 1049,99</del></i><br>
-                    <h2 class="w3-wide"><b> 12x R$50,00 <br><br> R$600,00</b></h2>
-                    <span class="w3-opacity">por 1 ano</span>
+                        <h2 class="w3-wide">$ 10</h2>
+                        <span class="w3-opacity">per month</span>
                     </li>
                     <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-black w3-padding-large">COMPRAR</button>
-                    </li>
-                    </ul>
-            </div>
-            <div class="w3-third" id="show_valor">
-                <ul class="w3-ul w3-white w3-hover-shadow">
-
-                    <li class="w3-red w3-xlarge w3-padding-48">Plano Medio</li>
-                    <li class="w3-padding-16">Site mediano com <b> 2 extensões</b></li>
-                    <li class="w3-padding-16">Atualização no site de <b> R$70 por 7 dias</b></li>
-                    <li class="w3-padding-16">suporte por <b>10 Hóras a diária</b></li>
-                    <li class="w3-padding-16">Domínio gratis por <b> 1 ano</b></li>
-                    <li class="w3-padding-16">pagamentos online <b> não tem</b></li>
-
-
-
-                    <li class="w3-padding-16">
-                        <i><del>R$ 2049,99</del></i><br>
-                        <h2 class="w3-wide">
-                            <b> 12 x R$140,00 <br><br> R$1680,00</b></h2>
-                        <span class="w3-opacity">na contratação de 2 ano</span>
-                    </li>
-                    <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-black w3-padding-large">COMPRAR</button>
+                        <button class="w3-button w3-black w3-padding-large">Sign Up</button>
                     </li>
                 </ul>
             </div>
-            <div class="w3-third w3-section" id="show_valor">
+            <div class="w3-third">
                 <ul class="w3-ul w3-white w3-hover-shadow">
-                    <li class="w3-black w3-xlarge w3-padding-32">Plano Profissional</li>
-
-                    <li class="w3-padding-16">Site completo com <b>extensões ilimitadas</b></li>
-                    <li class="w3-padding-16">Atualização no site de <b> R$50 por 1 mês </b></li>
-                    <li class="w3-padding-16">suporte por <b>20 Hóras a diária</b></li>
-                    <li class="w3-padding-16">Domínio gratis por <b> 3 ano</b></li>
-                    <li class="w3-padding-16">pagamentos online <b> tem </b></li>
-
-
+                    <li class="w3-red w3-xlarge w3-padding-48">Pro</li>
+                    <li class="w3-padding-16"><b>25GB</b> Storage</li>
+                    <li class="w3-padding-16"><b>25</b> Emails</li>
+                    <li class="w3-padding-16"><b>25</b> Domains</li>
+                    <li class="w3-padding-16"><b>Endless</b> Support</li>
                     <li class="w3-padding-16">
-                        <i><del>R$ 2399,99</del></i><br>
-                        <h2 class="w3-wide"> <b> 12 x R$200,00 <p class="desconto"> com 10% de desconto</p> R$2159,99</b></h2>
-                        <span class="w3-opacity">na contratação de 4 anos</span>
+                        <h2 class="w3-wide">$ 25</h2>
+                        <span class="w3-opacity">per month</span>
                     </li>
                     <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-black w3-padding-large">COMPRAR</button>
+                        <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-third w3-section">
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                    <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+                    <li class="w3-padding-16"><b>50GB</b> Storage</li>
+                    <li class="w3-padding-16"><b>50</b> Emails</li>
+                    <li class="w3-padding-16"><b>50</b> Domains</li>
+                    <li class="w3-padding-16"><b>Endless</b> Support</li>
+                    <li class="w3-padding-16">
+                        <h2 class="w3-wide">$ 50</h2>
+                        <span class="w3-opacity">per month</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-black w3-padding-large">Sign Up</button>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
+
     <!-- Contact Section -->
     <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
-        <h3 class="w3-center">Contato</h3>
-        <p class="w3-center w3-large"></p>
+        <h3 class="w3-center">CONTACT</h3>
+        <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
         <div style="margin-top:48px">
-            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Capela - SE</p>
-            <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefone : 79 99972-2046</p>
-            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: codeprogramado@gmail.com</p>
+            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+            <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
             <br>
             <form action="/action_page.php" target="_blank">
                 <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-                <p><input class="w3-input w3-border" type="email" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
                 <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
                 <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
                 <p>
@@ -596,14 +355,43 @@
     <footer class="w3-center w3-black w3-padding-64">
         <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
         <div class="w3-xlarge w3-section">
-
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
             <i class="fa fa-instagram w3-hover-opacity"></i>
-
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
         </div>
-        <p>Author
-            <a href="https://github.com/LuizinhoVI" title="meu instagram" target="_blank" class="w3-hover-text-green">LUIZ VIEIRA</a>
-        </p>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
     </footer>
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+            } else {
+                mySidebar.style.display = 'block';
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+        }
+    </script>
+
 </body>
 
 </html>
