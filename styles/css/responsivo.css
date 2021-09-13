@@ -1,4 +1,7 @@
 @media only screen and (max-width: 900px) {
+    #home {
+        width: 100%;
+    }
     #efeito_letra {
         font-size: 25px !important;
         height: 40px;
