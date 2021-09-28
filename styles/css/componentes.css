@@ -47,11 +47,30 @@ del {
 
 #work>div>div {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 #work>div>div:hover {
     border-radius: 10px;
-    box-shadow: 0px 1px 10px 0px rgb(11, 26, 236);
+    box-shadow: 0px 1px 5px 0px rgb(11, 26, 236);
     transform: scale(1.1);
+}
+
+#perfil {
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+#perfil>div {
+    border-radius: 10px;
+}
+
+#perfil>div>img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#wapp {
+    border-radius: 10px;
 }
