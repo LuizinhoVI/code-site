@@ -45,14 +45,18 @@ del {
     border-radius: 10px;
 }
 
+#work>div {
+    padding: 20px;
+}
+
 #work>div>div {
     text-align: center;
-    padding: 30px;
+    padding: 50px;
 }
 
 #work>div>div:hover {
     border-radius: 10px;
-    box-shadow: 0px 1px 5px 0px rgb(11, 26, 236);
+    box-shadow: 0px 0px 5px 0px rgb(11, 26, 236);
     transform: scale(1.1);
 }
 
