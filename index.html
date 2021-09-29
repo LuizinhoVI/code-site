@@ -33,12 +33,12 @@
 
     <!-- Sidebar on small screens when clicking the menu icon -->
     <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-        <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-        <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
-        <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
-        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">FECHAR ×</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">INICIO</a>
+        <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">EQUIPE</a>
+        <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">MOLEDOS DE SITES</a>
+        <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PLANOS</a>
+        <!-- <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a> -->
     </nav>
 
     <!-- Header with full-height image -->
@@ -59,7 +59,7 @@
     <!-- About Section -->
     <div class="w3-container" style="padding:128px 16px" id="about">
         <h3 class="w3-center" id="tema">Code Programado</h3>
-        <p class="w3-center w3-large">Seu site na sua mão</p>
+        <p class="w3-center w3-large">Seu site na palma da mão</p>
         <div class="w3-row-padding w3-center" style="margin-top:10px">
             <h1 align="center"></h1>
             <p class="w3-justify">Um site feito para você, que busca ser reconhecido nos buscadores da internet e ter uma boa venda sem muita dor de cabeça, temos os melhores planos para quem estar chegando agora e deseja ter um site com a sua marca na internet e ser reconhecido
@@ -70,6 +70,45 @@
         <div class="w3-row-padding w3-center" style="margin-top:10px" id="mostrar_google">
             <img src="styles/img/Google-1.gif" alt="" class="google">
 
+        </div>
+
+        <hr>
+        <div id="separador">
+            <div>
+                <h1 align="center">Usabilidade</h1>
+                <br>
+                <p align="justify"> Mostraremos varios modelo de como vai ficar o seu site, depois que aprovar o site vamos entrar em modo de produção para construir o site do seu gosto, a duração em média de um site para ficar pronto é entre 1 a 3 mês, porem vai depender
+                    quantos itens vai colocar no seu site, não se preocupa com a demora do site, vamos deixar uma previa do seu site disponível para você acompanhar em tempo real. Após terminar a produção vamos configurar a hospedagem e o domínio para
+                    você não ter dor de cabeça e problemas de configurações. </p>
+            </div>
+            <div class="w3-conteiner">
+                <!-- <img src="styles/img/conectado.gif" class="conectado" alt="dor de cabeça"> -->
+            </div>
+        </div>
+        <hr>
+        <div class="w3-row-padding w3-center" style="margin-top:64px">
+            <div class="w3-quarter">
+                <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+
+                <p class="w3-large">Compatibilidade</p>
+                <p> Pelos computadores, smartphone e tablets seu site terá uma ótima adaptação.</p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Qualidade</p>
+                <p>Seu site sera visto e reconhecido pelos mecanismos de busca do Google.</p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Manutenção</p>
+                <p>Totos os sites aqui são feitos por via código fonte, fazemos update todo final de semana.</p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Configurações</p>
+                <p>Configuramos toda a infraestrutura automaticamente </p>
+
+            </div>
         </div>
     </div>
 
@@ -338,16 +377,16 @@
     <!-- Promo Section "Statistics" -->
     <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
         <div class="w3-quarter">
-            <span class="w3-xxlarge">+21</span>
+            <span class="w3-xxlarge">+39</span>
             <br>MODELOS DE SITE
         </div>
         <div class="w3-quarter">
             <span class="w3-xxlarge">+10</span>
-            <br>PROJETOS PRONTOS
+            <br>INTEGRAÇÕES
         </div>
         <div class="w3-quarter">
-            <span class="w3-xxlarge">+3</span>
-            <br>CLIENTES
+            <span class="w3-xxlarge">+42</span>
+            <br>SOLUÇÕES
         </div>
         <div class="w3-quarter">
             <span class="w3-xxlarge">+42</span>
@@ -356,27 +395,31 @@
     </div>
 
     <!-- Work Section -->
-    <div class="w3-container" style="padding:128px 16px" id="work">
+    <div class="w3-container" align="center" style="padding:128px 16px;display: none;" id="work">
         <h1 class="w3-center"> C L I E N T E S </h1>
         <p class="w3-center w3-large"></p>
         <div class="w3-row-padding" style="margin-top:64px" id="clientes">
-            <div class="w3-col l3 m6">
-                <br>
+            <div class="w3-content l3 m6">
+
+                <a href="https://www.sweetcakegc.com.br/" target="_blank">
+                    <img src="styles/img/logos/logo.jpg" style="width:50%" onclick="" class="w3-hover-opacity" alt="A microphone"></a>
+                <b>
+                    <H4>
+                        SWEET CAKE GC
+                    </H4>
+                </b>
+            </div>
+
+            <!-- <div class="w3-col l3 m6">
+
                 <a href="https://www.sweetcakegc.com.br/" target="_blank">
                     <img src="styles/img/logos/logo.jpg" style="width:100%" onclick="" class="w3-hover-opacity" alt="A microphone"></a>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.sweetcakegc.com.br/" target="_blank">
-                    <img src="styles/img/logos/logo.jpg" style="width:100%" onclick="" class="w3-hover-opacity" alt="A microphone"></a>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.sweetcakegc.com.br/" target="_blank">
-                    <img src="styles/img/logos/logo.jpg" style="width:100%" onclick="" class="w3-hover-opacity" alt="A microphone"></a>
-            </div>
-            <div class="w3-col l3 m6"> <br>
-                <a href="https://www.sweetcakegc.com.br/" target="_blank">
-                    <img src="styles/img/logos/logo.jpg" style="width:100%" onclick="" class="w3-hover-opacity" alt="A microphone"></a>
-            </div>
+                <b>
+                    <H4>
+                        SWEET CAKE GC
+                    </H4>
+                </b>
+            </div> -->
 
         </div>
 
@@ -439,7 +482,7 @@
                     <span class="w3-opacity">por 1 ano</span>
                     </li>
                     <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-black w3-padding-large">COMPRAR</button>
+                        <button class="w3-button w3-black w3-padding-large">Mais informações</button>
                     </li>
                     </ul>
             </div>
@@ -462,7 +505,7 @@
                         <span class="w3-opacity">na contratação de 2 ano</span>
                     </li>
                     <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-black w3-padding-large">COMPRAR</button>
+                        <button class="w3-button w3-black w3-padding-large">Mais informações</button>
                     </li>
                 </ul>
             </div>
@@ -470,7 +513,7 @@
                 <ul class="w3-ul w3-white w3-hover-shadow">
                     <li class="w3-black w3-xlarge w3-padding-32">Plano Profissional</li>
 
-                    <li class="w3-padding-16">Site completo com <b>extensões ilimitadas</b></li>
+                    <li class="w3-padding-16">Site completo com <b>10 extensões</b></li>
                     <li class="w3-padding-16">Atualização no site de <b> R$50 por 1 mês </b></li>
                     <li class="w3-padding-16">suporte por <b>20 Hóras a diária</b></li>
                     <li class="w3-padding-16">Domínio gratis por <b> 3 ano</b></li>
@@ -483,7 +526,7 @@
                         <span class="w3-opacity">na contratação de 4 anos</span>
                     </li>
                     <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-black w3-padding-large">COMPRAR</button>
+                        <button class="w3-button w3-black w3-padding-large">Mais informações</button>
                     </li>
                 </ul>
             </div>
@@ -491,7 +534,7 @@
     </div>
 
     <!-- Contact Section -->
-    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+    <div class="w3-container w3-light-grey" style="padding:128px 16px;display: none;" id="contact">
         <h3 class="w3-center">CONTACT</h3>
         <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
         <div style="margin-top:48px">
@@ -517,16 +560,18 @@
 
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-64">
-        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-        <div class="w3-xlarge w3-section">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>VOLTAR PARA O TOPO</a>
+        <!-- <div class="w3-xlarge w3-section">
             <i class="fa fa-facebook-official w3-hover-opacity"></i>
             <i class="fa fa-instagram w3-hover-opacity"></i>
             <i class="fa fa-snapchat w3-hover-opacity"></i>
             <i class="fa fa-pinterest-p w3-hover-opacity"></i>
             <i class="fa fa-twitter w3-hover-opacity"></i>
             <i class="fa fa-linkedin w3-hover-opacity"></i>
-        </div>
-        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+        </div> -->
+        <p>Copyright: © 2021 author :
+            <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green"> l_u_i_zzz_</a>
+        </p>
     </footer>
 
     <script>
